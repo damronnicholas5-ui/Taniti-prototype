@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+
 <header>
   <span class="brand">Taniti Tourism</span>
   <nav aria-label="Primary navigation">
@@ -21,28 +22,65 @@
 <main>
   <h1>Visitor Information</h1>
 
-  <section class="section">
-    <p class="small">
-      Common questions answered in one place (feedback incorporated: faster findability).
-    </p>
+  <!-- Usability task F4: Find visitor info related to currency and safety -->
+  <section class="section" aria-labelledby="essentials-heading">
+    <h2 id="essentials-heading">Essential Travel Information</h2>
+    <ul class="info-list">
+      <li>
+        <strong>Currency</strong>
+        The U.S. dollar is the accepted currency on Taniti. Most businesses accept cash; credit card acceptance
+        varies by vendor.
+      </li>
+      <li>
+        <strong>Safety</strong>
+        Taniti is generally considered safe for tourists. Exercise standard travel precautions: secure your
+        valuables, stay aware of surroundings, and avoid poorly lit areas after dark. Emergency services are
+        available in Taniti City.
+      </li>
+      <li>
+        <strong>Power / Electricity</strong>
+        Taniti uses 120-volt outlets, the same standard as the United States. No adapter is needed for U.S.
+        travelers.
+      </li>
+      <li>
+        <strong>Alcohol</strong>
+        Alcohol may be purchased and consumed between 9:00 a.m. and 10:00 p.m. only. Bars and restaurants
+        must follow these hours.
+      </li>
+      <li>
+        <strong>Public Holidays</strong>
+        Some businesses and attractions may be closed or have reduced hours on local holidays. Confirm hours
+        of any planned activities before your visit.
+      </li>
+      <li>
+        <strong>Language</strong>
+        English is widely spoken in tourist areas. Most signs and menus in Taniti City are available in English.
+      </li>
+      <li>
+        <strong>Health &amp; Medical</strong>
+        Basic medical services are available on the island. Travelers are encouraged to bring any prescription
+        medications needed for the duration of their stay.
+      </li>
+    </ul>
+  </section>
 
-    <div class="card">
-      <ul>
-        <li><strong>Currency:</strong> U.S. dollar accepted</li>
-        <li><strong>Power:</strong> 120 volts</li>
-        <li><strong>Alcohol:</strong> laws and hours (see local guidance)</li>
-        <li><strong>Safety:</strong> general precautions and tips</li>
-        <li><strong>Holidays:</strong> potential closures and adjusted hours</li>
-      </ul>
+  <!-- Usability task F5: Use the "Plan Your Trip" button -->
+  <section class="section" aria-labelledby="plan-heading">
+    <h2 id="plan-heading">Ready to Plan Your Trip?</h2>
+    <p style="font-family:Arial,sans-serif;font-size:0.95rem;margin-bottom:14px;">
+      Now that you have the essential information, start planning your Taniti experience.
+    </p>
+    <div class="btn-row">
+      <a class="btn btn-primary" href="things-to-do.html">Plan Your Trip</a>
+      <a class="btn btn-secondary" href="lodging.html">Find Lodging</a>
+      <a class="btn btn-secondary" href="index.html">Back to Home</a>
     </div>
-
-    <p>
-      <a class="btn" href="lodging.html">Plan Your Trip</a>
-      <a class="btn" href="index.html">Back to Home</a>
-    </p>
   </section>
 </main>
 
-<footer><span class="small">Low-fidelity interactive prototype for usability testing (HJN1)</span></footer>
+<footer>
+  Taniti Tourism &mdash; Interactive Prototype &mdash; WGU HJN1 Task 1
+</footer>
+
 </body>
 </html>

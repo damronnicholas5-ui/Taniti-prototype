@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+
 <header>
   <span class="brand">Taniti Tourism</span>
   <nav aria-label="Primary navigation">
@@ -21,44 +22,60 @@
 <main>
   <h1>Welcome to Taniti</h1>
 
-  <section class="section" aria-labelledby="hero">
-    <h2 id="hero">Plan your trip</h2>
-    <p class="small">Beaches • Rainforest • Volcano • Culture</p>
+  <!-- Hero / Plan Your Trip CTA — addresses usability task F5 -->
+  <div class="hero">
+    <h2>Plan Your Trip to Taniti</h2>
+    <p class="tagline">BEACHES &nbsp;•&nbsp; RAINFOREST &nbsp;•&nbsp; VOLCANO &nbsp;•&nbsp; CULTURE</p>
+    <p style="font-family:Arial,sans-serif;font-size:0.95rem;color:#ffffffdd;margin-bottom:18px;">
+      Taniti is a small, tropical island growing in popularity. Use this site to explore
+      activities, find lodging, learn how to get around, and prepare for your visit.
+    </p>
+    <div class="btn-row">
+      <a class="btn btn-primary" href="things-to-do.html">Explore Activities</a>
+      <a class="btn btn-secondary" style="border-color:#fff;color:#fff;" href="lodging.html">Find Lodging</a>
+    </div>
+  </div>
 
-    <!-- Feedback incorporation: prominent CTA + clear next steps -->
-    <a class="btn" href="lodging.html">Plan Your Trip</a>
-    <a class="btn" href="things-to-do.html">Top Activities</a>
-  </section>
-
-  <section class="section">
-    <h2>Quick Highlights</h2>
+  <!-- Quick Highlights grid — addresses usability tasks F1, F2, F3 -->
+  <section class="section" aria-labelledby="highlights-heading">
+    <h2 id="highlights-heading">Quick Highlights</h2>
     <div class="grid">
       <div class="card">
-        <strong>Activities</strong><br />
-        Beaches, rainforest tours, volcano visits, sightseeing
+        <strong>Things to Do</strong>
+        Beaches, rainforest tours, volcano excursions, cultural attractions, and local dining.
+        <br /><br />
+        <a class="btn btn-secondary" href="things-to-do.html" style="font-size:0.85rem;padding:7px 14px;">View Activities</a>
       </div>
       <div class="card">
-        <strong>Lodging</strong><br />
-        Hotels, resorts, B&amp;Bs, hostels (regulated/inspected)
+        <strong>Lodging</strong>
+        Hotels, resorts, bed &amp; breakfasts, hostels, and family-owned options — all regulated and inspected.
+        <br /><br />
+        <a class="btn btn-secondary" href="lodging.html" style="font-size:0.85rem;padding:7px 14px;">View Lodging</a>
       </div>
       <div class="card">
-        <strong>Getting Around</strong><br />
-        Arrive by air; buses, taxis, rentals on the island
+        <strong>Getting Around</strong>
+        Arrive by air or cruise ship. On the island: public buses, taxis, rentals, and walkable areas.
+        <br /><br />
+        <a class="btn btn-secondary" href="transportation.html" style="font-size:0.85rem;padding:7px 14px;">Transportation</a>
       </div>
     </div>
   </section>
 
-  <section class="section">
-    <h2>Need to know</h2>
-    <p class="small">
-      Find visitor essentials like currency, safety guidance, alcohol laws, and holiday closures on the Visitor Info page.
+  <!-- Visitor essentials — addresses usability task F4 -->
+  <section class="section" aria-labelledby="essentials-heading">
+    <h2 id="essentials-heading">Visitor Essentials</h2>
+    <p style="font-family:Arial,sans-serif;font-size:0.95rem;margin-bottom:14px;">
+      Before you travel, review important information on currency, safety, local laws, power, and holiday schedules.
     </p>
-    <a class="btn" href="visitor-info.html">Visitor Information</a>
+    <div class="btn-row">
+      <a class="btn btn-primary" href="visitor-info.html">Visitor Information</a>
+    </div>
   </section>
 </main>
 
 <footer>
-  <span class="small">Low-fidelity interactive prototype for usability testing (HJN1)</span>
+  Taniti Tourism &mdash; Interactive Prototype &mdash; WGU HJN1 Task 1
 </footer>
+
 </body>
 </html>

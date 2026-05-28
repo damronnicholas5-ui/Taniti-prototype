@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+
 <header>
   <span class="brand">Taniti Tourism</span>
   <nav aria-label="Primary navigation">
@@ -21,37 +22,54 @@
 <main>
   <h1>Lodging</h1>
 
-  <section class="section">
-    <p class="small">
-      Feedback incorporated: clearer labels + obvious “next step” buttons for planning.
-    </p>
+  <!-- Usability task F2: Locate lodging appropriate for a leisure traveler -->
+  <div class="prototype-notice">
+    All lodging options on Taniti are regulated and inspected by the local government.
+    Contact individual properties for current availability and pricing.
+  </div>
 
+  <section class="section" aria-labelledby="lodging-types-heading">
+    <h2 id="lodging-types-heading">Lodging Options</h2>
     <div class="grid">
       <div class="card">
-        <strong>Hotels &amp; Resorts</strong><br />
-        Common tourist choice; regulated/inspected.
+        <strong>Hotels &amp; Resorts</strong>
+        Full-service accommodations popular with leisure travelers. Most are located near Taniti City and the beaches.
+        Amenities typically include restaurants, pools, and tour desks.
       </div>
       <div class="card">
-        <strong>Bed &amp; Breakfasts</strong><br />
-        Smaller stays and local experience.
+        <strong>Bed &amp; Breakfasts</strong>
+        Smaller, locally owned stays offering a more personal experience. Good choice for travelers seeking local character.
       </div>
       <div class="card">
-        <strong>Hostels</strong><br />
-        Budget-friendly option for travelers.
+        <strong>Hostels</strong>
+        Budget-friendly dormitory or private room options. Ideal for solo travelers or those keeping costs low.
       </div>
       <div class="card">
-        <strong>Family-Owned Lodging</strong><br />
-        Local businesses and personal service.
+        <strong>Family-Owned Lodging</strong>
+        Locally run guesthouses offering personalized service. Prices and amenities vary — contact hosts directly.
       </div>
     </div>
-
-    <p>
-      <a class="btn" href="transportation.html">Next: Transportation</a>
-      <a class="btn" href="index.html">Back to Home</a>
-    </p>
   </section>
+
+  <section class="section" aria-labelledby="lodging-tips-heading">
+    <h2 id="lodging-tips-heading">Planning Tips</h2>
+    <ul class="info-list">
+      <li><strong>Book Early</strong> Tourism is growing on Taniti; availability can be limited during peak seasons.</li>
+      <li><strong>Location</strong> Most lodging is concentrated in and around Taniti City, close to activities and transport.</li>
+      <li><strong>Currency</strong> U.S. dollars are accepted. Confirm payment methods with your lodging provider.</li>
+    </ul>
+  </section>
+
+  <div class="btn-row">
+    <a class="btn btn-primary" href="transportation.html">Next: Transportation</a>
+    <a class="btn btn-secondary" href="things-to-do.html">Things to Do</a>
+    <a class="btn btn-secondary" href="index.html">Back to Home</a>
+  </div>
 </main>
 
-<footer><span class="small">Low-fidelity interactive prototype for usability testing (HJN1)</span></footer>
+<footer>
+  Taniti Tourism &mdash; Interactive Prototype &mdash; WGU HJN1 Task 1
+</footer>
+
 </body>
 </html>

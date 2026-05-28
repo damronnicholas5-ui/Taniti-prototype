@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+
 <header>
   <span class="brand">Taniti Tourism</span>
   <nav aria-label="Primary navigation">
@@ -21,35 +22,60 @@
 <main>
   <h1>Transportation</h1>
 
-  <section class="section">
+  <!-- Usability task F3: Identify transportation options on the island -->
+  <section class="section" aria-labelledby="arriving-heading">
+    <h2 id="arriving-heading">Arriving on Taniti</h2>
     <div class="grid">
       <div class="card">
-        <strong>Arriving</strong>
-        <ul>
-          <li>Air travel (primary)</li>
-          <li>Weekly cruise ship docking</li>
-        </ul>
+        <strong>By Air</strong>
+        The primary way to reach Taniti. The island has a small airport served by charter and regional flights.
+        Most visitors arrive by air.
       </div>
-
       <div class="card">
-        <strong>Getting Around</strong>
-        <ul>
-          <li>Public buses (Taniti City)</li>
-          <li>Taxis</li>
-          <li>Rental cars</li>
-          <li>Bike rentals</li>
-          <li>Walkable areas in town</li>
-        </ul>
+        <strong>By Cruise Ship</strong>
+        Cruise ships dock at Taniti's port on a weekly basis. Cruise passengers typically visit for the day.
       </div>
     </div>
-
-    <p>
-      <a class="btn" href="visitor-info.html">Next: Visitor Info</a>
-      <a class="btn" href="index.html">Back to Home</a>
-    </p>
   </section>
+
+  <section class="section" aria-labelledby="getting-around-heading">
+    <h2 id="getting-around-heading">Getting Around the Island</h2>
+    <div class="grid">
+      <div class="card">
+        <strong>Public Buses</strong>
+        Bus service operates within Taniti City and to some surrounding areas. An affordable option for short distances.
+      </div>
+      <div class="card">
+        <strong>Taxis</strong>
+        Available throughout Taniti City. Recommended for door-to-door travel, especially after dark.
+      </div>
+      <div class="card">
+        <strong>Rental Cars</strong>
+        Available for rent — visitors must be 21 or older with a valid license. Gives the most flexibility for
+        exploring the full island.
+      </div>
+      <div class="card">
+        <strong>Bike Rentals</strong>
+        Bicycles are available to rent in Taniti City. Good for exploring the local area at a leisurely pace.
+      </div>
+      <div class="card">
+        <strong>On Foot</strong>
+        Taniti City is walkable. Many restaurants, shops, and attractions are within easy walking distance of
+        central lodging.
+      </div>
+    </div>
+  </section>
+
+  <div class="btn-row">
+    <a class="btn btn-primary" href="visitor-info.html">Next: Visitor Info</a>
+    <a class="btn btn-secondary" href="lodging.html">Lodging</a>
+    <a class="btn btn-secondary" href="index.html">Back to Home</a>
+  </div>
 </main>
 
-<footer><span class="small">Low-fidelity interactive prototype for usability testing (HJN1)</span></footer>
+<footer>
+  Taniti Tourism &mdash; Interactive Prototype &mdash; WGU HJN1 Task 1
+</footer>
+
 </body>
 </html>
